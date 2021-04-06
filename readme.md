@@ -9,6 +9,7 @@ A Ti.Saúde segue quebrando barreiras, levando acesso à saúde de qualidade par
 Nesse teste analisaremos seu conhecimento geral e inclusive modelagem de banco de dados. Abaixo explicaremos tudo o que será necessário.
 
 Prazo ideal: 3 dias
+
 Prazo máximo: 7 dias
 
 #### O desafio
