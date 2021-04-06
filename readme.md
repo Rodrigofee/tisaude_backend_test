@@ -13,21 +13,21 @@ Prazo ideal: 3 dias
 Prazo máximo: 7 dias
 
 #### O desafio
-Seu objetivo é criar uma API em NodeJS de vacinação para COVID-19 para cidade de Olinda. Onde o cidadão irá preencher seu dados pessoais e terá o retorno se está em qual faixa prioritária que está divididas em três faixas, segue abaixo:
+Seu objetivo é criar uma API em NodeJS de vacinação para COVID-19 para cidade de Olinda. Onde o cidadão irá preencher com seus dados pessoais e terá o retorno de qual faixa prioritária se encontra, segue abaixo:
 
 - Vermelha: Grupo com prioridade alta
 - Amarela: Grupo com prioridade média
 - Verde: Grupo com prioridade baixa
 
-Fique para escolher biblioteca, o banco precisa ser em MySQL.
+Escolha a sua biblioteca, o banco precisa ser em MySQL.
 
 #### Regra de negócio 
-- Só moradores de Olinda poderão se cadastrar para vacinação
+- Só moradores de Olinda poderão se cadastrar
 - Pessoas acima de 65 tem prioridade alta
-- Crianças e Adolescentes tem prioridade baixa
-- Mulheres gravidas tem prioridade alta, independente qual seja sua idade
-- O morador deve receber a informação qual fase ele está após sua inscrição
-- O morador pode cancelar sua vaga na fila, pra isso necessita justificativa, uma vez que saiu da fila não pode retornar
+- Crianças e adolescentes tem prioridade baixa
+- Mulheres grávidas tem prioridade alta, independente qual seja sua idade
+- O morador deve receber a informação qual faixa ele está após sua inscrição, ele pode consultar posteriormente 
+- O morador pode cancelar sua vaga no grupo, pra isso necessita justificativa, uma vez que saiu não poderá retornar
 - Dados: Nome, CPF, Telefone, Email, Endereço, Nascimento, Sexo
 
 #### Instruções
