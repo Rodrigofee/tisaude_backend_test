@@ -12,7 +12,7 @@ Prazo ideal: 3 dias
 Prazo máximo: 7 dias
 
 #### O desafio
-Seu objetivo é criar uma API em NodeJS de vacinação para COVID-19 para cidade de Olinda. Onde o cidadão irá preencher seu dados pessoais e terá o retorno se está apto para vacinação ou está na fila de espera que está divididas em três faixas, segue abaixo:
+Seu objetivo é criar uma API em NodeJS de vacinação para COVID-19 para cidade de Olinda. Onde o cidadão irá preencher seu dados pessoais e terá o retorno se está em qual faixa prioritária que está divididas em três faixas, segue abaixo:
 
 - Vermelha: Grupo com prioridade alta
 - Amarela: Grupo com prioridade média
@@ -35,6 +35,7 @@ Fique para escolher biblioteca, o banco precisa ser em MySQL.
 3. Altere o readme.md explicando o que é preciso para rodar a aplicação
 4. Após terminar seu projeto faça um dump do seu banco do projeto para dentro da pasta /database
 5. Faça um pull request e aguarde o feedback
+6. Caso não consiga terminar a tempo, faça o pull request da mesma forma
 
 #### Análise
 - Organização de código
