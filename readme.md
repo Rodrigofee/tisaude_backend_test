@@ -52,4 +52,4 @@ Escolha a sua biblioteca, o banco precisa ser em MySQL.
 ## Dúvidas
 Quaisquer dúvidas que você venha a ter, consulte as issues para ver se alguém já não a fez e caso você não ache sua resposta, abra você mesmo uma nova issue!
 
-<h3> Boa sorte! </h3>
+<h3> Boa sorte </h3>
