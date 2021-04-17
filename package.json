@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Giovannisb/tisaude_backend_test#readme",
   "dependencies": {
     "body-parse": "^0.1.0",
+    "cep-promise": "^4.1.0",
     "express": "^4.17.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2",
