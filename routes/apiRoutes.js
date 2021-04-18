@@ -25,7 +25,8 @@ router.post('/new', (req, res) => {
     var risco = null;
 
     var risco = view(nascimento);
-    let existe = null;
+
+    
 
     // const result = cepPromise(inputCep);
     // console.log(result.city);
@@ -77,8 +78,7 @@ router.get("/find/:cpf", (req, res) => {
         where: {
             cpf: req.params.cpf
         }
-    }).then( user => res.send("Olá " + user.nome + ", você é do grupo de risco "+ user.risco));
-    console.log(User.name);
+    }).then( user => res.send(user));
 });
 
 router.delete("/delete/:cpf", (req, res) => {
