@@ -1,0 +1,31 @@
+{
+  "name": "tisaude_backend_test",
+  "version": "1.0.0",
+  "description": "A Ti.Saúde segue quebrando barreiras, levando acesso à saúde de qualidade para todos, conectando a população e especialistas das mais diversas áreas de saúde. Hoje, nos tornamos a maior plataforma de gestão e relacionamento entre profissionais e pacientes. Possibilitando assim, milhares de conexões em todo o Brasil por meio da telemedicina e clínica digital. Nosso time está crescendo, nisso precisamos de você!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giovannisb/tisaude_backend_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giovannisb/tisaude_backend_test/issues"
+  },
+  "homepage": "https://github.com/Giovannisb/tisaude_backend_test#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cep-promise": "^4.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

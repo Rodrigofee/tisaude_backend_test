@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "743037aa-89d7-4997-b07d-315a38aad070",
+		"name": "ti_saude",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "consulta todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cadastro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nome",
+							"value": "Giovanni",
+							"type": "text"
+						},
+						{
+							"key": "cpf",
+							"value": "11278096442",
+							"type": "text"
+						},
+						{
+							"key": "telefone",
+							"value": "994331192",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "giovannisb59@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "endereco",
+							"value": "Av. Carlos de Lima Cavalcante",
+							"type": "text"
+						},
+						{
+							"key": "numero",
+							"value": "1306",
+							"type": "text"
+						},
+						{
+							"key": "complemento",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "cep",
+							"value": "53130-515",
+							"type": "text"
+						},
+						{
+							"key": "data_nascimento",
+							"value": "02-10-1995",
+							"type": "text"
+						},
+						{
+							"key": "sexo",
+							"value": "Masculino",
+							"type": "text"
+						},
+						{
+							"key": "gestante",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "cidade",
+							"value": "Olinda",
+							"type": "text"
+						},
+						{
+							"key": "estado",
+							"value": "PE",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consulta por cpf",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/find/11278096442",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"find",
+						"11278096442"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "motivo",
+							"value": "já me vacinei",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/delete/11278096442",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"delete",
+						"11278096442"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
