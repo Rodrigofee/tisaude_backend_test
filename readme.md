@@ -13,7 +13,7 @@ Prazo ideal: 3 dias
 Prazo máximo: 7 dias
 
 #### O desafio
-Seu objetivo é criar uma API em Python de vacinação para COVID-19 para cidade de Olinda. Onde o cidadão irá preencher com seus dados pessoais e terá o retorno de qual faixa prioritária se encontra, segue abaixo:
+Seu objetivo é criar uma API (Linguaguem será passada pelo gerente de pessoas) de vacinação para COVID-19 para cidade de Olinda. Onde o cidadão irá preencher com seus dados pessoais e terá o retorno de qual faixa prioritária se encontra, segue abaixo:
 
 - Vermelha: Grupo com prioridade alta
 - Amarela: Grupo com prioridade média
@@ -48,6 +48,7 @@ Escolha a sua biblioteca, o banco precisa ser em MySQL.
 - Código em inglês
 - Documentação
 - Testes
+- Rodar em ambiente LINUX
 
 ## Dúvidas
 Quaisquer dúvidas que você venha a ter, consulte as issues para ver se alguém já não a fez e caso você não ache sua resposta, abra você mesmo uma nova issue!
