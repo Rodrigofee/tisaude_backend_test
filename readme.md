@@ -4,7 +4,7 @@ A Ti.Saúde segue quebrando barreiras, levando acesso à saúde de qualidade par
 
 ## Teste para candidatos 
 
-### Backend Pleno
+### Backend
 
 Nesse teste analisaremos seu conhecimento geral e inclusive modelagem de banco de dados. Abaixo explicaremos tudo o que será necessário.
 
@@ -13,7 +13,7 @@ Prazo ideal: 3 dias
 Prazo máximo: 7 dias
 
 #### O desafio
-Seu objetivo é criar uma API em NodeJS de vacinação para COVID-19 para cidade de Olinda. Onde o cidadão irá preencher com seus dados pessoais e terá o retorno de qual faixa prioritária se encontra, segue abaixo:
+Seu objetivo é criar uma API em Python de vacinação para COVID-19 para cidade de Olinda. Onde o cidadão irá preencher com seus dados pessoais e terá o retorno de qual faixa prioritária se encontra, segue abaixo:
 
 - Vermelha: Grupo com prioridade alta
 - Amarela: Grupo com prioridade média
